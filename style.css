@@ -23,15 +23,16 @@ nav ul {
 
 nav ul li a {
     margin: 0 20px;
-    color: #ff00e6;
+    color: #00f7da;
     text-decoration: none;
     font-weight: bold;
-    text-shadow: 0 0 10px #ff00e6;
+    text-shadow: 0 0 10px #00f7da;
 }
 
 .hero {
     height: 100vh;
-    background: url('https://images.unsplash.com/photo-1518998053901-5348d3961a04?auto=format&fit=crop&w=1350&q=80') center/cover no-repeat;
+    background: url('DJALBINA-p.jpg') center/cover no-repeat;
+background-color: #000;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -53,7 +54,7 @@ nav ul li a {
     font-size: 4rem;
     z-index: 1;
     letter-spacing: 5px;
-    text-shadow: 0 0 20px #ff00e6;
+    text-shadow: 0 0 20px #00f7da;
 }
 
 .subtitle {
@@ -65,13 +66,13 @@ nav ul li a {
 .btn {
     margin-top: 20px;
     padding: 12px 30px;
-    background: #ff00e6;
+    background: #00f7da;
     color: #fff;
     text-decoration: none;
     z-index: 1;
     border-radius: 30px;
     font-weight: bold;
-    box-shadow: 0 0 20px #ff00e6;
+    box-shadow: 0 0 20px #00f7da;
 }
 
 section { padding: 80px 10%; }
@@ -79,7 +80,7 @@ section { padding: 80px 10%; }
 h2 {
     text-align: center;
     font-size: 2.5rem;
-    text-shadow: 0 0 20px #ff00e6;
+    text-shadow: 0 0 20px #00f7da;
 }
 
 .mix-grid {
@@ -97,15 +98,10 @@ h2 {
 .gallery-grid .img {
     height: 200px;
     background: #222;
-    border: 2px solid #ff00e6;
-    box-shadow: 0 0 20px #ff00e6;
+    border: 2px solid #00f7da;
+    box-shadow: 0 0 20px #00f7da;
 }
 
-.equip-list {
-    list-style: none;
-    text-align: center;
-    font-size: 1.2rem;
-}
 
 .booking-form {
     max-width: 500px;
@@ -118,7 +114,11 @@ h2 {
 .booking-form input, .booking-form textarea {
     padding: 10px;
     background: #111;
-    border: 1px solid #ff00e6;
+    border: 1px solid #00f7da;
     color: #fff;
+}
+.logo {
+    height: 60px;
+    filter: drop-shadow(0 0 8px #fff);
 }
 
